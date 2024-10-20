@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'Monocraft';
+    src: url('fonts/MONOCRAFT.TTC') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    background-color:#3e1c33;
+}
+
+p {
+    color : #f6921d;
+    font-family: "Monocraft", serif;
+    font-size: 15px;
+}
+
+h1 {
+    color: #b14623;
+    font-family: "Monocraft", serif;
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    width: 100%; /* Esto hará que la tabla ocupe todo el ancho */
+}
+td, th {
+    padding: 5px;/* Alto de las celdas */
+}
+
+thead{
+    background-color:#130912;
+    color:#f6921d
+}
+
+tbody{
+    background-color:#130912;
+    color:#f6921d;
+    text-align: center;
+}
+
+a,a::after {
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+a:hover {
+    text-shadow: -1px -1px 0px #b14623, 1px 1px 0px #602749;
+}
+
+a:hover {
+    background-color: transparent;
+    border: 1px solid #b14623;
+    box-shadow: 0px 10px 10px -10px #b14623;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+#footer {
+    background-color: #130912;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
