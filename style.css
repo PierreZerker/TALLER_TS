@@ -24,28 +24,41 @@ h1 {
     text-align: center;
 }
 
+h5 {
+    color: #b14623 !important;
+    font-family: "Monocraft", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 table {
     width: 100%; /* Esto hará que la tabla ocupe todo el ancho */
 }
 td, th {
-    padding: 5px;/* Alto de las celdas */
+    padding: 0.5rem;
 }
 
 thead{
     background-color:#130912;
-    color:#f6921d
+    font-family: "Monocraft", serif;
+    color: #b14623 ;
+    text-align: center;
 }
 
 tbody{
-    background-color:#130912;
+    background-color:#130912 !important;
+    font-family: "Monocraft", serif;
     color:#f6921d;
     text-align: center;
 }
 
 a,a::after {
+    font-family: "Monocraft", serif;
     border: none;
     border-radius: 5px;
     position: relative;
+    color:#b14623;
 }
 
 a:hover {
@@ -58,9 +71,16 @@ a:hover {
     box-shadow: 0px 10px 10px -10px #b14623;
 }
 
-img{
+img.header{
     width: 40px;
     height: 40px;
+}
+
+img.card-img-top{
+    background-color:#130912 !important;
+    font-family: "Monocraft", serif;
+    color:#f6921d;
+    text-align: center;
 }
 
 #footer {

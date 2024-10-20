@@ -4,21 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Taller typescript 1</title>
+        <link rel="stylesheet" href="./main.css">
         <link rel="stylesheet" href="./style.css">
         <script type="module" src="./scripts/main.js"></script>
     </head>
     <body>
-        <h1><img src="./TV.png" alt="TV" id="tv">TV Series</h1>
-        <table class="table" id="series">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Channel</th>
-                    <th>Seasons</th>
-                </tr>
-            </thead>
-        </table>
-        <p>Seasons average: <span id="average"></span></p>
+        <h1><img src="./TV.png" alt="TV" id="tv" class="header">TV Series</h1>
+        <div class="container container1">
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="table" id="series">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Channel</th>
+                                <th>Seasons</th>
+                            </tr>
+                        </thead>
+                    </table>
+                    <p>Seasons average: <span id="average"></span></p>
+                </div>
+                <div class="col-md-6" id="information"></div>
+            </div>
+        </div>
     </body>
 </html>
